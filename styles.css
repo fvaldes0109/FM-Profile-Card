@@ -35,7 +35,7 @@ body {
 
 #card {
     width: 370px;
-    margin: 120px auto 20px;
+    margin: 7% auto 20px;
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
@@ -102,4 +102,16 @@ strong {
     font-size: 11px;
     padding: 4px;
     letter-spacing: 2px;
+}
+
+@media(max-width: 375px) {
+    #card {
+        width: 300px;
+    }
+    #photo {
+        right: 107px;
+    }
+    #photo-border {
+        right: 103px;
+    }
 }
